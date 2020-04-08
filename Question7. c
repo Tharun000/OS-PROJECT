@@ -19,7 +19,7 @@ int main()
 			type[i]=0;
 		}
 	}
-	printf("Process Number\tResponse Time\tType\t\tPriority");
+	printf("Process Number\tResponse Time\tType\t\tPriority ");
 	for(i=0;i<n;i++)
 	{
 		printf("\nP%d\t\t%dms\t\t",i,resptime[i]);
