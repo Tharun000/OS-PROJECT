@@ -21,7 +21,7 @@ int main()
 	else
 	{
 		printf("\n");
-		printf("-------------------*Please enter information about processes*-------------------\n");
+		printf("-------------------*Please enter information about processes*------------------\n");
 		printf("\n");
 		for(i=0;i<number_of_process;i++)
 		{
