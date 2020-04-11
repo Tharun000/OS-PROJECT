@@ -5,9 +5,16 @@ Operating System simulation based projects.
 
 #-----------------------------------------------------------Question:-07----------------------------------------------------------------
 Problem:
- Researchers designed one system that classified interactive and noninteractive processes automatically by looking at the amount of terminal I/O. If a process did not input or output to the terminal in a 1-second interval, the process was classified as noninteractive and was moved to a lower-priority queue. In response to this policy, one programmer modified his programs to write an arbitrary character to the terminal at regular intervals of less than 1 second. The system gave his programs a high priority, even though the terminal output was completely meaningless.
+       Researchers designed one system that classified interactive and noninteractive processes automatically by looking at the amount of terminal I/O. If a process did not input or output to the terminal in a 1-second interval, the process was classified as noninteractive and was moved to a lower-priority queue. In response to this policy, one programmer modified his programs to write an arbitrary character to the terminal at regular intervals of less than 1 second. The system gave his programs a high priority, even though the terminal output was completely meaningless.
 
 Explantion:
+          In the above problem actually researchers designed a system to classify the processes into two categories(i.e., Interactive processes and non-interactive processes)
+1.Interactice process:- If response time is less than one second.(<1s)
+2.Non-Interactive process:-If response time is greater or equal to  one second(>=1s).
+If the process is interactive it will be sent to high priority queue otherwise to low priority queue. This is working on the basis of priority scheduling algorithm.
+
+Many of the user’s or programmers are not interested in running only a particular processes like if interactive processes are given priority over non-interactive processes then the programmer could divide larger process(more time taking) into smaller process(Interactive processes) and make it interactive process and is interested in sending it to high priority queue same thing has done by programmer in this problem.
+
 
 
 
